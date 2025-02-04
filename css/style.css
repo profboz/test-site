@@ -1,0 +1,143 @@
+body{
+    font-family: 'NeutraText';
+    
+    }
+    
+    
+    header,
+    nav,
+    footer,
+    div {
+      width: 100%;
+    }
+    
+    nav {
+      margin: 0;
+      padding: 0;
+      background: #F4F0FA;
+      overflow: hidden;
+    }
+    nav ul {
+      list-style: none;
+      text-align: center;
+      overflow: hidden;
+    }
+    nav ul li {
+      display: inline-block;
+      margin: 0 -4px;
+      padding: 2px 0;
+    }
+    nav ul li a {
+      padding: 2px 40px;
+      font: normal 1em / normal 'Neutra Text', sans-serif;
+      color: #4D22A0;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    nav ul li a:hover,
+    nav ul li a.active {
+      text-decoration: underline;
+    }
+    section {
+      padding: 0px;
+      height: auto;
+      font: normal 2em / normal 'Neutra Text', sans-serif;
+      grid-template-columns: repeat(12, 60px);
+      grid-column-gap: 20px;
+      grid-template-rows: auto;
+      display: grid;
+      justify-content: center;
+    
+    }
+    section#section1,
+    section#section3,
+    section#section5
+    
+     {
+      background: white;
+      color: #eee;
+      height: 500px;
+    
+    
+    
+    }
+    
+    h4 {
+      grid-column: 1 / 12;
+      grid-row: 1 / 2;
+      text-align: center;
+      color: black;
+      font-weight: 500;
+      margin-top: 55px;
+    }
+    
+    .box1 {
+      grid-column: 3 / 11;
+      grid-row: 1 / 2;
+      background-color: #4D22A0;
+      height: 95px;
+      font-size: 80px;
+      font-weight: 100;
+      padding-top: 40px;
+      margin-top:100px;
+      text-align: center;
+    margin-bottom: 50px
+    
+    
+    }
+    
+    .box2 {
+      grid-column: 1 / 13;
+      grid-row: 2 / 3;
+      background-color: white;
+      color: black;
+      height: 175px;
+      font-size: 30px;
+      font-weight: 200;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-top: 1px dotted #4D22A0;
+      border-bottom: 1px dotted #4D22A0;
+    margin-bottom: 50px;
+    }
+    
+    .box3{
+    
+      grid-column: 1 / 13;
+      grid-row: 4 / 5;
+      column-count: 4;
+      font-size: 15px;
+      font-weight: 100;
+      text-align:left;
+      margin-top:50px;
+    
+    }
+    
+    
+    section#section2,
+    section#section4 {
+      background: #F4F0FA;
+    height: 500px;
+    }
+    
+    .textcol{
+    }
+    
+    
+    h5{
+      margin-top:0;
+      grid-column: 1 / 12;
+      grid-row: 3 / 4;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    footer {
+      padding: 20px;
+      background: #ff6e6f;
+      font: normal 1em 'Neutra Text', sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+    
